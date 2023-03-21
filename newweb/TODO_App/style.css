@@ -1,0 +1,43 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+form{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 30%;
+    box-shadow: (149,157,165,0.2);
+    padding: 30px;
+}
+lable{
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table td,
+table th{
+    padding: 10px;
+    background-color:rgb(139, 23, 139);
+    color: white;
+}
+tr{
+    /* margin-left:130px ; */
+}
+form{
+    border: 1px solid red;
+}
+label{
+    font-size: large;
+}
+select{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+input{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
