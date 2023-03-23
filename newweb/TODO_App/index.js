@@ -15,7 +15,6 @@ function todoApp(event) {
   localStorage.setItem("TableData", JSON.stringify(taskArr));
   tableDisplay(taskArr);
 }
-
 function tableDisplay(taskArr) {
   document.querySelector("tbody").innerHTML = "";
   taskArr.forEach(function (ele) {
